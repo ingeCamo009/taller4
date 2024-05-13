@@ -83,12 +83,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const imagesDiv = createElementWithAttributes("div", {class: "flexContenedor"});
     const imageSources = [
-        "recursos/imagenes/b.png",
-        "recursos/imagenes/c.png",
-        "recursos/imagenes/d.png",
-        "recursos/imagenes/b.png",
-        "recursos/imagenes/c.png",
-        "recursos/imagenes/d.png"
+        "recursos/imagenes/B.png",
+        "recursos/imagenes/C.png",
+        "recursos/imagenes/D.png",
+        "recursos/imagenes/B.png",
+        "recursos/imagenes/C.png",
+        "recursos/imagenes/D.png"
         
     ];
     imageSources.forEach(src => {
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function() {
     copyrightPara.appendChild(byLink);
     const socialMediaDiv = createElementWithAttributes("div", {class: "divencabezadohijoderecho"});
     const socialMediaImages = [
-        "recursos/imagenes/logo_chiquito_facebook.png",
+        "recursos/imagenes/logo chiquito facebook.png",
         "recursos/imagenes/twi.png",
         "recursos/imagenes/in.png",
         "recursos/imagenes/mens.png",
